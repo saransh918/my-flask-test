@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Additional Rules</title>
+	<style>
+		body {
+			background-color: white;
+		}
+		h1 {
+			text-align: left;
+			color: black;
+			padding: 20px;
+			margin: 0;
+		}
+		h2 {
+			text-align: left;
+			color: black;
+			padding: 10px;
+			margin: 0;
+		}
+		.button {
+			background-color: black;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin: 10px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <div id="flash-message" class="alert alert-success fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+        <script>
+            $(document).ready(function() {
+                setTimeout(function() {
+                    $('#flash-message').fadeOut('slow');
+                }, 5000); // 5 seconds
+            });
+        </script>
+    {% endif %}
+{% endwith %} <br>
+
+<form id="myForm" action="{{ url_for('rules') }}" method="post">
+<h1>Select File for attaching rules!</h1>
+<label for="subcategory_dropdown">File:</label>
+  <select id="subcategory_dropdown" name="subcategory">
+    {% for subcategory in subcategories %}
+    <option value="{{ subcategory }}">{{ subcategory }}</option>
+    {% endfor %}
+  </select><br>
+<h2>Select Additional rules for this file!</h2>
+	<input type="text" id="column1" name="column1" placeholder="Column Names">
+	<select id="condition1" name="condition1">
+		<option value=""></option>
+		<option value="=">=</option>
+		<option value="contains">contains</option>
+		<option value="between">between</option>
+		<option value="<="><=</option>
+		<option value=">=">>=</option>
+	</select>
+	<input type="text" id="textbox1" name="textbox1" placeholder="Values"><br>
+
+		<input type="text" id="column2" name="column2" placeholder="Column Names">
+	<select id="condition2" name="condition2">
+		<option value=""></option>
+		<option value="=">=</option>
+		<option value="contains">contains</option>
+		<option value="between">between</option>
+		<option value="<="><=</option>
+		<option value=">=">>=</option>
+	</select>
+	<input type="text" id="textbox2" name="textbox2" placeholder="Values"><br>
+
+
+	<input type="text" id="column3" name="column3" placeholder="Column Names">
+	<select id="condition3" name="condition3">
+		<option value=""></option>
+		<option value="=">=</option>
+		<option value="contains">contains</option>
+		<option value="between">between</option>
+		<option value="<="><=</option>
+		<option value=">=">>=</option>
+	</select>
+	<input type="text" id="textbox3" name="textbox3" placeholder="Values"><br>
+
+
+		<input type="text" id="column4" name="column4" placeholder="Column Names">
+	<select id="condition4" name="condition4">
+		<option value=""></option>
+		<option value="=">=</option>
+		<option value="contains">contains</option>
+		<option value="between">between</option>
+		<option value="<="><=</option>
+		<option value=">=">>=</option>
+	</select>
+	<input type="text" id="textbox4" name="textbox4" placeholder="Values"><br>
+
+<button type="submit" class = "button"  name="submit_button" value="HOME">HOME</button>
+<button type="submit" onclick="myFunction()" class = "button"  name="submit_button" value="ADD RULE">ADD RULE</button>
+
+<input type="hidden" name="response" value="">
+
+</form>
+<script>
+function myFunction() {
+  var result = confirm("Do you want to proceed?");
+  if (result == true) {
+    document.getElementById("myForm").elements.namedItem("response").value = "OK";
+  } else {
+  }
+  document.getElementById("myForm").submit();
+}
+</script>
+
+</body>
+</html>

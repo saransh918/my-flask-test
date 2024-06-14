@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<style>
+		#plot-container {
+			position: relative;
+			width: 500;
+			height: 500
+			margin: auto;
+			display: block;
+		}
+		body {
+			background-color: white;
+		}
+		h1 {
+			text-align: left;
+			color: black;
+			padding: 20px;
+			margin: 0;
+		}
+		.button {
+			background-color: black;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin: 10px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		.small_button {
+			background-color: black;
+			color: white;
+			padding: 8px;
+			border: none;
+			border-radius: 3px;
+			margin: 8px;
+			font-size: 12px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>FILE VALIDATION AND INGESTION</h1>
+	</header>
+	<form action="{{ url_for('action') }}" method="post">
+	<main>
+		<button type="submit" class = "button" name="submit_button" value="ADD NEW FILE">ADD NEW FILE</button>
+		<button type="submit" class = "button" name="submit_button" value="FILE DETAILS">FILE DETAILS</button>
+		<button type="submit" class = "button"  name="submit_button" value="VALIDATE FILE">VALIDATE FILE</button>
+		<button type="submit" class = "button"  name="submit_button" value="ADD RULE">ADD RULES</button>
+		<button type="submit" class = "button"  name="submit_button" value="UPDATE">UPDATE METADATA</button>
+	</main><br><br>
+	<div id="plot-container">
+    {{ plot|safe }}</div>
+	</form>
+</body>
+</html>

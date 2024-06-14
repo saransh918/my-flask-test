@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Textbox and Checkbox Handling</title>
+    <script>
+        function handleCheckboxChange(checkbox) {
+            var textbox = document.getElementById('textbox');
+            if (checkbox.checked) {
+                textbox.disabled = false;
+                textbox.classList.remove('default-value');
+            } else {
+                textbox.disabled = true;
+                textbox.value = "Default Value";
+                textbox.classList.add('default-value');
+            }
+        }
+    </script>
+    <style>
+        .default-value {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <input type="checkbox" name="enableTextbox" onchange="handleCheckboxChange(this)">Enable Textbox<br>
+        <input type="text" id="textbox" name="textbox" value="Default Value" class="default-value" disabled><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>addnewfile</title>
+      <style>
+		body {
+			background-color: white;
+		}
+		h1 {
+			text-align: left;
+			color: black;
+			padding: 20px;
+			margin: 0;
+		}
+		.button {
+			background-color: black;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin: 10px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>Enter folder name</h1>
+    <br>
+<form id="myForm" action="{{ url_for('folder_json') }}" method="post">
+         <label for="folder">Folder *:</label>
+      <input type="text" id="folder" name="folder"><br><br>
+
+      <button onclick="myFunction()" type="submit" class = "button" name="submit_button" value="submit">SUBMIT</button>
+    <input type="hidden" name="response" value="">
+
+</form>
+    <script>
+      function myFunction() {
+  var result = confirm("Do you want to proceed?");
+  if (result == true) {
+    document.getElementById("myForm").elements.namedItem("response").value = "OK";
+  } else {
+  }
+  document.getElementById("myForm").submit();
+} </script>
+  </body>
+</html>
