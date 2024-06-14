@@ -1,0 +1,48 @@
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+1,Jose,Lopez,joselopez0194@slingacademy.com,+1-971-533-4552x1542,male,Product,Web Developer,24,6000,Range Error: Column 'Years Of Experience' between 1 and 20
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+2344,Yvette,Walker,yvettewalker22675@slingacademy.com,154-489-0248,female,Product,Mobile Developer,3,8500,Comparison Error : Column 'EMP_ID' '<=' '350'
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values

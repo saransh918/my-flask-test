@@ -1,0 +1,12 @@
+FILE_NAME|RULE|COLUMNS|OPERATOR|VALUES
+balance-of-payments|RULE1|Period|date fields|NA
+employees|RULE1|Years Of Experience|between|1,20
+employees|RULE2|EMP_ID|<=|350
+employees|RULE3|Salary|>=|1000
+employees|RULE4|EMP_ID|primary key|NA
+processed_final|RULE1|BtcPrice|numeric fields|NA
+processed_final|RULE2|ID|primary key|NA
+processed_final|RULE3|BlocksToConfirm|<=|500
+Data|RULE1|count|numeric fields|NA
+Data|RULE2|Year|date fields|NA
+employees|RULE5|EMP_ID|primary key|NA

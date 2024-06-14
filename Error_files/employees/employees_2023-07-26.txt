@@ -1,0 +1,8 @@
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values
+EMP_ID,First Name,Last Name,Email,Phone,Gender,Department,Job Title,Years Of Experience,Salary,ERROR
+319,Courtney,Mcdaniel,courtneymcdaniel319582@slingacademy.com,(871)098-2647x80448,female,Product,Web Developer,12,12000,Key Error: Column 'EMP_ID' has duplicate values

@@ -1,0 +1,29 @@
+PROJECT|PREFIX|FILE_NAME|DATE|COUNT|STATUS|REASON
+FILE_VALIDATION|overseas-trade-indexes|overseas-trade-indexes-part1.csv|2023-03-10|32998|VALID|File structure is correct! File satisfies all rules
+FILE_VALIDATION|overseas-trade-indexes|overseas-trade-indexes-part2.csv|2023-03-10|67523|VALID|File structure is correct! No rules are present for this file
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part1.csv|2023-04-13|11999|VALID|File structure is correct! File satisfies all rules
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part2.csv|2023-04-14|7999|VALID|File structure is correct! File satisfies all rules
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part3.csv|2023-04-13|14999|VALID|File structure is correct! File satisfies all rules
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part4.csv|2023-04-13|19999|VALID|File structure is correct! File satisfies all rules
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part5.csv|2023-04-13|22793|VALID|File structure is correct! File satisfies all rules
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part6.csv|2023-04-13|29999|VALID|File structure is correct! File satisfies all rules
+INTERNAL|employees|employees_06042022.csv|2023-07-29|320|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/employees/employees_2023-07-29.txt
+INTERNAL|employees|employees_06042022.csv|2023-07-29|320|VALID|File structure is correct! File satisfies all rules!
+INVEST|processed_final|processed_final_2.csv|2023-07-28|26031688|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/processed_final/processed_final_2023-07-29.txt
+INVEST|processed_final|processed_final_2.csv|2023-07-28|26031688|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/processed_final/processed_final_2023-07-29.txt
+INVEST|processed_final|processed_final_2.csv|2023-07-28|26031688|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/processed_final/processed_final_2023-07-29.txt
+INTERNAL|Data|Data8277.csv|2023-07-28|34959672|INVALID|Invalid Structure!
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part7.csv|2023-07-24|39999|VALID|File structure is correct! File satisfies all rules!
+INTERNAL|Data|Data8277.csv|2023-07-30|34959672|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/Data/Data_2023-08-07.txt
+INTERNAL|Data|Data8277.csv|2023-08-07|34959672|INVALID|Invalid Structure!
+INVEST|processed_final|processed_final_2.csv|2023-07-28|26031688|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/processed_final/processed_final_2023-08-07.txt
+INTERNAL|Data|Data8277.csv|2023-08-13|34959672|VALID|File structure is correct! File satisfies all rules!
+INVEST|processed_final|processed_final_2.csv|2023-08-17|26031688|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/processed_final/processed_final_2023-08-17.txt
+INTERNAL|employees|employees_23082023.csv|2023-08-23|320|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/employees/employees_2023-08-23.txt
+INTERNAL|Data|Data8279.csv|2023-08-23|34959672|VALID|File structure is correct! File satisfies all rules!
+INTERNAL|employees|employees_23082023.csv|2023-08-23|320|VALID|File structure is correct! File satisfies all rules!
+INVEST|processed_final|processed_final_2.csv|2023-08-23|26031688|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/processed_final/processed_final_2023-08-23.txt
+INTERNAL|employees|employees_24082023.csv|2023-08-24|320|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/employees/employees_2023-08-24.txt
+INTERNAL|employees|employees_24082023.csv|2023-08-24|320|VALID|File structure is correct! File satisfies all rules!
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part8.csv|2024-06-11|39999|INVALID|File structure is correct! File has errors, check error file: C:/Users/KX173ZE/PycharmProjects/FILE_VALIDATION/venv/Error_files/balance-of-payments/balance-of-payments_2024-06-11.txt
+FILE_VALIDATION|balance-of-payments|balance-of-payments-part8.csv|2024-06-11|39999|VALID|File structure is correct! File satisfies all rules!

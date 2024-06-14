@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Predefined Rules</title>
+	<style>
+		body {
+			background-color: white;
+		}
+		h1 {
+			text-align: left;
+			color: black;
+			padding: 20px;
+			margin: 0;
+		}
+		h2 {
+			text-align: left;
+			color: black;
+			padding: 10px;
+			margin: 0;
+		}
+		.button {
+			background-color: black;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin: 10px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <div id="flash-message" class="alert alert-success fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+        <script>
+            $(document).ready(function() {
+                setTimeout(function() {
+                    $('#flash-message').fadeOut('slow');
+                }, 5000); // 5 seconds
+            });
+        </script>
+    {% endif %}
+{% endwith %} <br>
+
+<form id="myForm" action="{{ url_for('add_rules') }}" method="post">
+<h1>Select File for attaching rules!</h1>
+<label for="subcategory_dropdown">File:</label>
+  <select id="subcategory_dropdown" name="subcategory">
+    {% for subcategory in subcategories %}
+    <option value="{{ subcategory }}">{{ subcategory }}</option>
+    {% endfor %}
+  </select><br>
+<h2>Select validation rules for this file!</h2>
+	<select id="rule1" name="rule1">
+		<option value=""></option>
+		<option value="not null fields">not null fields</option>
+		<option value="primary key">primary key</option>
+		<option value="numeric fields">numeric fields</option>
+		<option value="date fields">date fields</option>
+	</select>
+	<input type="text" id="textbox1" name="textbox1"><br>
+
+	<select id="rule2" name="rule2">
+		<option value=""></option>
+		<option value="not null fields">not null fields</option>
+		<option value="primary key">primary key</option>
+		<option value="numeric fields">numeric fields</option>
+		<option value="date fields">date fields</option>
+	</select>
+	<input type="text" id="textbox2" name="textbox2"><br>
+
+	<select id="rule3" name="rule3">
+		<option value=""></option>
+		<option value="not null fields">not null fields</option>
+		<option value="primary key">primary key</option>
+		<option value="numeric fields">numeric fields</option>
+		<option value="date fields">date fields</option>
+	</select>
+	<input type="text" id="textbox3" name="textbox3"><br>
+
+	<select id="rule4" name="rule4">
+		<option value=""></option>
+		<option value="not null fields">not null fields</option>
+		<option value="primary key">primary key</option>
+		<option value="numeric fields">numeric fields</option>
+		<option value="date fields">date fields</option>
+	</select>
+	<input type="text" id="textbox4" name="textbox4"><br>
+
+<button type="submit" class = "button"  name="submit_button" value="HOME">HOME</button>
+<button type="submit" onclick="myFunction()" class = "button"  name="submit_button" value="ADD RULE">ADD RULE</button>
+
+<input type="hidden" name="response" value="">
+
+</form>
+<script>
+function myFunction() {
+  var result = confirm("Do you want to proceed?");
+  if (result == true) {
+    document.getElementById("myForm").elements.namedItem("response").value = "OK";
+  } else {
+  }
+  document.getElementById("myForm").submit();
+}
+</script>
+
+</body>
+</html>

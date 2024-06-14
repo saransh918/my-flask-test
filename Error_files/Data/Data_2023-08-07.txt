@@ -1,0 +1,2 @@
+Year,Age,Ethnic,Sex,Area,count,ERROR
+2018a,0,1,1,1,795,Date Error: Column 'Year' contains Non-Date values
