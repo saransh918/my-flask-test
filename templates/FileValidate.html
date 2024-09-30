@@ -64,9 +64,9 @@
         </script>
     {% endif %}
 {% endwith %} <br>
-    <h1>Select Project and File to validate!</h1>
+    <h1>Select Container and File to validate!</h1>
     <form action="{{ url_for('file_validate') }}" method="post">
-  <label for="category_dropdown">Project:</label>
+  <label for="category_dropdown">Container:</label>
   <select id="category_dropdown" name="category">
     {% for category in categories %}
     <option value="{{ category }}">{{ category }}</option>

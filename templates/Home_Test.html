@@ -47,11 +47,7 @@
 	</header>
 	<form action="{{ url_for('action') }}" method="post">
 	<main>
-		<button type="submit" class = "button" name="submit_button" value="ADD NEW FILE">ADD NEW FILE</button>
-		<button type="submit" class = "button" name="submit_button" value="FILE DETAILS">FILE DETAILS</button>
 		<button type="submit" class = "button"  name="submit_button" value="VALIDATE FILE">VALIDATE FILE</button>
-		<button type="submit" class = "button"  name="submit_button" value="ADD RULE">ADD RULES</button>
-		<button type="submit" class = "button"  name="submit_button" value="UPDATE">UPDATE METADATA</button>
 	</main><br><br>
 	<div id="plot-container">
     {{ plot|safe }}</div>
